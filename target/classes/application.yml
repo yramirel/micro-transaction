@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+  data:
+    mongodb:
+      database: microtransaction
+      host: localhost
+      port: 27017
